@@ -14,8 +14,6 @@ const verTitulos = async () => {
 };
 verTitulos();
 
-// Requerimiento 5
-
 const message = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
@@ -23,7 +21,7 @@ const message = () => {
     }, 3000);
   });
 };
-message();
+
 // Requerimiento 6
 
 const llamarMensaje = async () => {
